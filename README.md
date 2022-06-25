@@ -4,6 +4,10 @@
 
 > ⚠️ Library is still in Beta & a work in progress
 
-_An open-source library for rapidly building high-quality web apps using Supabase_
+**An open-source library for rapidly building high-quality web apps using Supabase**
 
 Spark is a component library with re-usable helpers to integrate into the start of any web-app
+
+## Form Builder
+
+## Auth
