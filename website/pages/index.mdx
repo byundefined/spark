@@ -1,0 +1,53 @@
+---
+title: Spark
+---
+
+import { useEffect, useRef } from "react";
+import Link from "next/link";
+
+<div style={{ textAlign: "center" }}>
+  <svg
+  style={{margin: '0 auto'}}
+  height={300}
+  viewBox="0 0 40 95"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M9.37552 2.58017L23.4803 0.0392334C24.8078 -0.199904 26.0784 0.67886 26.3183 2.00201C26.364 2.25439 26.3695 2.51239 26.3345 2.76648L21.7791 35.8056C21.5955 37.1377 22.5299 38.3659 23.8663 38.549C24.1239 38.5843 24.3855 38.5783 24.6412 38.5314L37.1152 36.2421C38.4419 35.9986 39.7153 36.8732 39.9596 38.1956C40.0342 38.5994 40.0051 39.0154 39.8751 39.405L21.3192 95V57.6145C21.3192 56.2699 20.2257 55.1799 18.8767 55.1799C18.7357 55.1799 18.5949 55.1921 18.4559 55.2163L2.86331 57.9345C1.53451 58.1662 0.268919 57.2803 0.0365218 55.9558C-0.00328139 55.7289 -0.0105957 55.4976 0.0148028 55.2687L5.38891 6.83644C5.62656 4.69473 7.24819 2.9634 9.37552 2.58017Z"
+    fill="black"
+  />
+</svg>
+   <h1 style={{fontSize: 80, marginBottom: 10}}>Spark</h1>
+  <h2 style={{fontSize: 18, fontWeight: 300, marginTop: 0, paddingBottom: 40}}>
+    Component toolkit to rapidly build high-quality web apps using <a href="https://supabase.com/" target="_blank" rel="noopener">Supabase</a>
+  </h2>
+  <div className="inline-flex justify-center cta-container mt-4">
+    <Link href="/docs">
+      <a className="cta" draggable="false">
+        Get Started
+      </a>
+    </Link>
+  </div>
+  <div style={{ marginTop: "2rem" }} />
+
+</div>
+
+<style jsx global>{`
+  body {
+    background: linear-gradient(
+      180deg,
+      hsla(0, 0%, 100%, 0) 0,
+      #fff min(110vw, 800px)
+    );
+  }
+  .dark body {
+    background: linear-gradient(
+        0deg,
+        hsla(0, 0%, 100%, 0.2) 0,
+        #000 min(110vw, 800px)
+      ),
+      fixed repeating-radial-gradient(circle at 50% min(calc(50vw + 3.5rem), calc(300px +
+                  5rem)), #050505 0, #000 40px);
+  }
+`}</style>
