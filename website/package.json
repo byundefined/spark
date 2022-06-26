@@ -14,6 +14,7 @@
   },
   "scripts": {
     "build": "next build",
+    "prod": "next build && next export",
     "dev": "next dev",
     "start": "next start"
   },

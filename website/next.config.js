@@ -5,4 +5,9 @@ const withNextra = require("nextra")({
   unstable_staticImage: true,
 });
 
-module.exports = withNextra({});
+module.exports = withNextra({
+  images: {
+    loader: "akamai",
+    path: "",
+  },
+});
